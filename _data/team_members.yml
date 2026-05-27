@@ -300,6 +300,16 @@
   email: cs25mtech02001 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Machine Learning
 
+- name: Rajat Maheshwari
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/Rajat72
+  photo: Rajat.jpeg
+  info: M.Tech RA, started January 2025
+  email: cs25mtech02007 [AT] iith [DOT] ac [DOT] in
+  interests: Automated Program Repair, Large Language Model, GPUs
+
 - name: Ankit Anil Dubey
   type: mtech
   url:
