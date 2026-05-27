@@ -14,66 +14,27 @@ permalink: /team/
 Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni](#alumni).
 
 ## Faculty
+
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 30px;">
 {% for member in site.data.team_members %}
-
 {% if member.type == 'faculty' %}
-<div class="row">
-<div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
-  <h4><a href="{{ member.url }}" target="_blank">{{ member.name }}</h4>
-
-  <p class="right">
-  <i>{{ member.info }}<br>{{ member.email }}</i>
-  </p>
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <p class="right">
-  <li> {{ member.education1 }} </li>
-  </p>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <p class="right">
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  </p>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <p class="right">
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  </p>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <p class="right">
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  </p>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <p class="right">
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  </p>
-  {% endif %}
-  
+<div style="width: 280px; background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+       style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #ddd; margin-bottom: 14px;" />
+  <h4 style="margin: 0 0 6px 0;"><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></h4>
+  <p style="margin: 0 0 4px 0; font-size: 0.9em; color: #555;"><i>{{ member.info }}</i></p>
+  <p style="margin: 0 0 12px 0; font-size: 0.85em; color: #777;">{{ member.email }}</p>
+  <ul style="text-align: left; padding-left: 18px; margin: 0; font-size: 0.85em; color: #444;">
+  {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
+  {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
+  {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
+  {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
+  {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
   </ul>
-
-
-</div>
 </div>
 {% endif %}
 {% endfor %}
+</div>
 
 <br/>
 ## PhD Students
