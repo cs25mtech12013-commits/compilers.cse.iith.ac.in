@@ -14,8 +14,6 @@
   next : PostDoc at University of Cambridge, UK
   thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
 
-
-
 - name: Soumya Banerjee
   type: alum
   # url :
@@ -74,8 +72,9 @@
   value: mtech
   photo: tamal.jpg
   info: M.Tech RA, 2021-2024
-  thesis: 
+  thesis: NA
   next: Software Engineer at Oracle
+
 
 - name: Kuldeep Gautam
   type: alum
