@@ -23,15 +23,7 @@ Jump to [Doctoral Students](#doctoral-students), [Masters Students](#masters-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   <h4>{{ member.name }}</h4>
-  <p class="right">
-  <i>{{ member.info }}</i><br>
-  {% if member.thesis_link %}
-  Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
-  {% elsif member.thesis != "NA" %}
-  Thesis: {{ member.thesis }}
-  {% endif %}
-  <br><i>Next: {{ member.next }}</i>
-  </p>
+  <p class="right"><i>{{ member.info }}<br>{% if member.thesis_link %}Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a><br>{% elsif member.thesis != "NA" %}Thesis: {{ member.thesis }}<br>{% endif %}Next: {{ member.next }}</i></p>
 </div>
 
 {% assign number_printed_phd = number_printed_phd | plus: 1 %}
@@ -61,15 +53,7 @@ Jump to [Doctoral Students](#doctoral-students), [Masters Students](#masters-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   <h4>{{ member.name }}</h4>
-  <p class="right">
-  <i>{{ member.info }}</i><br>
-  {% if member.thesis_link %}
-  Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
-  {% elsif member.thesis != "NA" %}
-  Thesis: {{ member.thesis }}
-  {% endif %}
-  <br><i>Next: {{ member.next }}</i>
-  </p>
+  <p class="right"><i>{{ member.info }}<br>{% if member.thesis_link %}Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a><br>{% elsif member.thesis != "NA" %}Thesis: {{ member.thesis }}<br>{% endif %}Next: {{ member.next }}</i></p>
 </div>
 
 {% assign number_printed_mtech = number_printed_mtech | plus: 1 %}
@@ -99,15 +83,7 @@ Jump to [Doctoral Students](#doctoral-students), [Masters Students](#masters-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   <h4>{{ member.name }}</h4>
-  <p class="right">
-  <i>{{ member.info }}</i><br>
-  {% if member.thesis_link %}
-  Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
-  {% elsif member.thesis != "NA" %}
-  Thesis: {{ member.thesis }}
-  {% endif %}
-  <br><i>Next: {{ member.next }}</i>
-  </p>
+  <p class="right"><i>{{ member.info }}<br>{% if member.thesis_link %}Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a><br>{% elsif member.thesis != "NA" %}Thesis: {{ member.thesis }}<br>{% endif %}Next: {{ member.next }}</i></p>
 </div>
 
 {% assign number_printed_btech = number_printed_btech | plus: 1 %}
