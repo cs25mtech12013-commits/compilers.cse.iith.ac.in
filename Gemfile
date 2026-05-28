@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem "sass-embedded", "< 1.89.0"
 
 group :jekyll_plugins do
     gem "jekyll-last-modified-at"
