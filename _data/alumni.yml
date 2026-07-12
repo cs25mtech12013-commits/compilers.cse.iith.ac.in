@@ -22,7 +22,7 @@
   value: mtech
   photo: Soumya.jpg
   info: M.Tech RA, 2022-2025
-  thesis:
+  thesis: Bridging Static and Dynamic Analyses for Binary Similarity and Inlining-Cost Modeling
   next : Qualcomm ML Compilers team
   # email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler Optimization, Machine Learning
@@ -35,7 +35,7 @@
   value: mtech
   photo: Raj_Ambekar.png
   info: M.Tech RA, 2022-2025
-  thesis: 
+  thesis: Use After Scope (UAS) bug detection in multi-threaded programs - Benchmarking and Evaluation
   next : ONIX
   # email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler Optimization, Code Compliance
@@ -48,7 +48,7 @@
   value: mtech
   info: M.Tech RA, 2022-2025
   photo: sayan.jpg
-  thesis: 
+  thesis: IR-based matching of Binary and Source Code
   next : Qualcomm ML Compilers team
   # info: M.Tech RA, started January 2022
   # email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
@@ -62,11 +62,18 @@
   value: mtech
   photo: Shikhar.jpg
   info: M.Tech RA, 2022-2025
-  thesis: 
+  thesis: Study of trade-offs for DVFS and Powercapping in modern CPUs
   next : Texas Instruments 
   # email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
 
+- name: Tamal Mondal
+  type: alum
+  value: mtech
+  photo: tamal.jpg
+  info: M.Tech RA, 2021-2024
+  thesis: NA
+  next: Software Engineer at Oracle
 
 
 - name: Kuldeep Gautam
@@ -152,7 +159,7 @@
   type: alum
   value: mtech
   info: M.Tech, 2016-2018
-  photo: male.jpeg
+  photo: anirudh.jpeg
   thesis: Optimization and parallelization of tensor and ODE/PDE computations on GPU
   thesis_link: http://raiith.iith.ac.in/4112/
   next: Xilinx compilers team
@@ -170,7 +177,7 @@
   type: alum
   value: mtech
   info: M.Tech RA, 2015-2018
-  photo: male.jpeg
+  photo: Tharun.jpeg
   thesis: Vectorization, Obfuscation and P4 LLVM Tool-chain
   thesis_link: http://raiith.iith.ac.in/4106/
   next: AMD compilers team
@@ -179,7 +186,7 @@
   type: alum
   value: mtech
   info: M.Tech RA, 2015-2018
-  photo: male.jpeg
+  photo: Shantanu.jpeg
   thesis: Optimizations In Compiler:Vectorization, Reordering, Register Allocation And Verification Of Explicitly Parallel Programs
   thesis_link: http://raiith.iith.ac.in/4126/
   next: Qualcomm compilers team

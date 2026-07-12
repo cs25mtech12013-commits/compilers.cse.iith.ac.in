@@ -105,7 +105,15 @@
 <div >
     <div style="display: flex; justify-content: space-between;">
         <div>
+            {% assign pub_permalink = "/publications/" | append: entry.shortname | append: "/" %}
+            {% assign pub_page = site.pages | where: "permalink", pub_permalink | first %}
+            {% if pub_page %}
             <strong><a href="{{site.url}}{{site.baseurl}}/publications/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
+            {% elsif entry.url and entry.url != empty %}
+            <strong><a href="{{entry.url}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
+            {% else %}
+            <strong style="margin:0;padding:0;border:0;font-size:large;">{{entry.title}}</strong>
+            {% endif %}
             {% if entry.award and  entry.award  != empty %}
                 <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px; margin-top: -5px;" class="trophy">  
                 <p  class="mod">{{entry.award}}</p>

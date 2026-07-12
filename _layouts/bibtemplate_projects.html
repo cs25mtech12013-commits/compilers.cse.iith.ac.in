@@ -3,8 +3,14 @@
 <div style="display:inline;">
     <nobr>
      {% if entry.short_title %}
-            {% if entry.shortname %}    
-                <a class=badge href="{{ site.url }}{{ site.baseurl }}/research/{{entry.shortname}}/" target="_blank">{{entry.short_title}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            {% if entry.shortname %}
+                {% assign research_permalink = "/research/" | append: entry.shortname | append: "/" %}
+                {% assign research_page = site.pages | where: "permalink", research_permalink | first %}
+                {% if research_page %}
+                    <a class=badge href="{{ site.url }}{{ site.baseurl }}/research/{{entry.shortname}}/" target="_blank">{{entry.short_title}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                {% elsif entry.url and entry.url != empty %}
+                    <a class=badge href="{{entry.url}}" target="_blank">{{entry.short_title}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                {% endif %}
             {% endif %}
      {% endif %}
     </nobr>

@@ -12,7 +12,30 @@
   education5: Research Scholar AT Lawrence Livermore National Laboratories, USA
   education6: Compiler Engineer in Hewlett Packard, India
   education7: BTech from Andhra University, Visakhapatnam, India
-  
+
+- name: Jyothi Vedurada
+  type: faculty
+  photo: jyothi.jpg
+  url: https://jyothivedurada.github.io/
+  info: Assistant Professor, started April 2021
+  email: jyothiv [AT] cse [DOT] iith [DOT] ac [DOT] in
+  number_educ: 4
+  education1: MTech in Computer Science from IIT Madras
+  education2: PhD from IIT Madras (supported by TCS PhD Fellowship)
+  education3: Postdoctoral Researcher AT Microsoft Research Lab, Bangalore (Jan 2020 - Feb 2021)
+  education4: Software Engineer AT Hewlett-Packard, Chennai (Dec 2009 - Jul 2011)
+
+- name: Ashish Mishra
+  type: faculty
+  photo: ashish.jpg
+  url: https://aegis-iisc.github.io/
+  info: Assistant Professor, started March 2024
+  email: mishraashish [AT] cse [DOT] iith [DOT] ac [DOT] in
+  number_educ: 3
+  education1: MS + PhD in Computer Science AT IISc Bangalore, India (Aug 2011 - Jan 2018), with Prof. Y. N. Srikant
+  education2: Postdoctoral Researcher AT Northeastern University, Greater Boston (Feb 2018 - Mar 2019)
+  education3: Postdoctoral Researcher AT Purdue University (PurPL), USA (Jun 2019 - Mar 2024), with Prof. Suresh Jagannathan
+
 # - name: Utpal Bora
 #   type: phd
 #   url:
@@ -54,6 +77,16 @@
   email: cs22resch12001 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
 
+- name: Soumik Kumar Basu
+  type: phd
+  url:
+    value: 1
+    link: https://soumikiith.github.io/
+  photo: soumik.jpg
+  info: started July 2021 (co-advised by Dr. Jyothi Vedurada)
+  email: cs21resch11004 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, CPU-GPU Heterogeneous Systems, Static Analysis
+
 - name: Maruti Sairam Venkata Annaluru
   type: phd
   url:
@@ -62,7 +95,18 @@
   photo: maruti.jpg
   info: started May 2022 (co-advised by Dr. Jyothi Vedurada)
   email: cs22resch04001 [AT] iith [DOT] ac [DOT] in
-  interests: Program Analysis, Code Compliance, Safety Critical Systems, Parallel Programs
+  interests: Program Analysis, Code Compliance, Safety Critical Systems
+
+
+- name: Ponnampalam Pirapuraj
+  type: phd
+  url:
+    value: 1
+    link: https://pirapu.github.io
+  photo: pirapuraj.jpg
+  info: started July 2023 (co-advised by Dr. Jyothi Vedurada)
+  email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
+  interests: Program Analysis, Large Language Models
 
 - name: Siddharth Jain
   type: phd
@@ -84,15 +128,27 @@
   email: cs23resch11001 [AT] iith [DOT] ac [DOT] in
   interests: Compilers, Computer Architecture, Performance Modelling
 
-# - name: Ponnampalam Pirapuraj
-#   type: phd
-#   url:
-#     value: 1
-#     link: https://github.com/pirapu
-#   photo: pirapuraj.jpg
-#   info: started July 2023
-#   email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
-#   interests: Compiler Optimization, Machine Learning, Code Compliance
+- name: Varsha Chebrolu
+  type: phd
+  url:
+    value: 1
+    link: https://github.com/Chebrolu-Varsha
+  photo: varsha.jpg
+  info: started July 2024 (advised by Dr. Ashish Mishra)
+  email: cs24resch11004 [AT] iith [DOT] ac [DOT] in
+  interests: Superoptimization, eBPF Programs, Program Verification
+
+- name: C Sree Vyshnavi
+  type: phd
+  url:
+    value: 1
+    link: https://sreevyshnavi02.github.io/
+  photo: vyshnavi.png
+  info: started July 2024 (advised by Dr. Ashish Mishra)
+  email: cs24resch11010 [AT] iith [DOT] ac [DOT] in
+  interests: Concurrent Program Correctness, Weak Memory Models, Fuzzing
+
+
 
 # - name: Kuldeep Gautam
 #   type: mtech
@@ -194,6 +250,16 @@
   email: cs23mtech12010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Static Program Analysis
 
+- name: Chinmay Rajesh Ingle
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/chinmayingle
+  photo: chinmay.jpg
+  info: M.Tech RA, started July 2023 (co-advised by Dr. Jyothi Vedurada)
+  email: cs23mtech12002 [AT] iith [DOT] ac [DOT] in
+  interests: GPU Performance, Compiler Optimization, HPC, LLVM, MLIR
+
 - name: Aayush Shrivastava
   type: mtech
   url :
@@ -204,6 +270,26 @@
   email: cs24mtech02001 [AT] iith [DOT] ac [DOT] in
   interests: Machine Learning, Program Analysis, Compiler Optimizations
 
+- name: Shivendra Atul Deshpande
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/shivdeshpande
+  photo: shivendra.jpg
+  info: M.Tech RA, started July 2024
+  email: cs24mtech12017 [AT] iith [DOT] ac [DOT] in
+  interests: GPU Computing, High-Performance Computing, Graph Processing
+
+- name: Deeba Afridi
+  type: mtech
+  url:
+    value: 0
+    link:
+  photo: deeba.jpg
+  info: M.Tech RA, started July 2024
+  email: cs24mtech12018 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, GPU Computing, Deep Learning Systems
+
 - name: Sri Harika
   type: mtech
   url :
@@ -213,6 +299,36 @@
   info: M.Tech RA, started January 2025
   email: cs25mtech02001 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Machine Learning
+
+- name: Rajat Maheshwari
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/Rajat72
+  photo: Rajat.jpeg
+  info: M.Tech RA, started January 2025
+  email: cs25mtech02007 [AT] iith [DOT] ac [DOT] in
+  interests: Automated Program Repair, Large Language Model, GPUs
+
+- name: Ankit Anil Dubey
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/AnkitDubeycs25
+  photo: ankit.webp
+  info: M.Tech RA, started July 2025
+  email: cs25mtech12001 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Static Analysis, Code Compliance
+
+- name: Omkar Maroti Rasal
+  type: mtech
+  url:
+    value: 0
+    link:
+  photo: omkar.jpg
+  info: M.Tech RA, started July 2025
+  email: cs25mtech12008 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Static Analysis, Code Compliance
 
 - name: Yogesh Febyani
   type: mtech
@@ -233,6 +349,37 @@
   info: M.Tech RA, started July 2025
   email: cs25mtech12013 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
+
+- name: Paarth Nakra
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/Kamui964
+  photo: paarth.jpeg
+  info: M.Tech RA, started Jan 2026
+  email: cs26mtech02005 [AT] iith [DOT] ac [DOT] in
+  interests: Machine Learning, Compiler Optimization, Hardware Accelerators
+
+- name: Prakhar Dixit
+  type: intern
+  url:
+    value: 1
+    link: https://github.com/Prakhar-Dixit
+  photo: prakhar.jpg
+  info: Research Intern
+  email: compiler.25011 [AT] intern [DOT] cse [DOT] iith [DOT] ac [DOT] in
+  interests: MLIR, GPU Kernel Optimization, Machine Learning Compilers
+
+- name: Subodh Sunil Humne
+  type: intern
+  url:
+    value: 1
+    link: https://github.com/SubodhHumne
+  photo: subodh.jpg
+  info: Research Intern
+  email: compiler.25012 [AT] intern [DOT] cse [DOT] iith [DOT] ac [DOT] in
+  interests: Machine Learning, Systems, Compiler Development
+
 # - name: Raghvendra Gupta 
 #   type: mtech
 #   url :
